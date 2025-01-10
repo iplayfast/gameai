@@ -1,0 +1,15 @@
+.
+├── code
+│   ├── backend
+│   │   └── backend.py
+│   ├── gameengine
+│   │   └── gameengine.py
+│   └── start.py
+├── directory.structure
+├── docs
+│   └── game-engine-api-docs.md
+├── logs
+│   └── simulation.log
+└── requirements.txt
+
+6 directories, 7 files

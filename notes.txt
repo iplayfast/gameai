@@ -1,0 +1,2 @@
+to see what's using the port
+lsof -i :8001
