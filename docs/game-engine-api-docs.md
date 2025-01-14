@@ -67,7 +67,7 @@ When the game engine starts, it sends an area configuration to the backend.
 }
 ```
 
-## Commands (Game Engine to Backend)
+## Commands (Backend to Game Engine) where the ai commands characters to do things.   Teleport is used in the initial setup to move characters into place
 
 ### Movement Commands
 ```json
@@ -95,7 +95,7 @@ When the game engine starts, it sends an area configuration to the backend.
 }
 ```
 
-### Interaction Commands
+### Interaction Commands, to trigger scripts or request information
 ```json
 {
   "command": "look",
@@ -146,7 +146,7 @@ When the game engine starts, it sends an area configuration to the backend.
 }
 ```
 
-## Response Format (Backend to Game Engine)
+## Response Format (Game Engine to Backend but possibly bi-directional)
 All responses follow this structure:
 ```json
 {
